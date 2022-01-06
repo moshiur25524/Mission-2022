@@ -5,6 +5,10 @@ body {
 .flexible-type {
     display: flex;
     margin-bottom: 110px;
+    justify-content: center;
+}
+.top-banner {
+    margin-top: 60px;
 }
 .width {
     width: 50%;
@@ -19,39 +23,68 @@ body {
 }
 h1 {
     font-size: 50px;
+    margin: 0;
 }
 h2 {
     font-size: 35px;
     text-align: center;
+    padding: 20px;
 }
 .style-color {
     color: crimson;
 }
 .button-style {
     color:seashell;
-    background-color: steelblue;
+    background-color: rgb(235, 143, 181);
     padding: 10px 40px;
     border-radius: 10px;
+    cursor: pointer;
+    border: none;
 }
 #mission {
     background-color: rgb(218, 218, 192);
     border-radius: 20px;
     padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
 }
 #vission {
     background-color: rgb(235, 212, 170);
     border-radius: 20px;
     padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
 }
 #goal {
-    background-color: rgb(221, 109, 109);
+    background-color: rgb(231, 189, 189);
     border-radius: 20px;
     padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
 }
+.gellary {
+    color: tomato;
+    text-align: center;
+}
+.image-gellary {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single-img {
+    padding: 10px;
+} 
 #footer {
     background-color: black;
-    height: 120px;
+    height: 150px;
     width: 100%;
+}
+footer p {
+    color: rgb(241, 239, 239);
+    text-align: center;
+    padding-bottom: 10px;
 }
 #foot {
     color: white;
