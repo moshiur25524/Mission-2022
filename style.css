@@ -30,7 +30,7 @@ h1 {
 h2 {
     font-size: 45px;
     text-align: center;
-    padding: 20px;
+    padding: 45px;
 }
 .style-color {
     color: crimson;
@@ -78,13 +78,14 @@ h2 {
 } 
 #footer {
     background-color: black;
-    height: 150px;
     width: 100%;
 }
 footer p {
     color: rgb(241, 239, 239);
     text-align: center;
-    
+    padding-bottom:20px;
+    margin: 0;
+
 }
 #foot {
     color: white;
